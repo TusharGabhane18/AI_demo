@@ -1,0 +1,15 @@
+{
+  "name": "ai_agent_demo-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:trace": "npx playwright test --trace=on"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "typescript": "^5.5.4"
+  }
+}
